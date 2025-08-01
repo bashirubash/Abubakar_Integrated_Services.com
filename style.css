@@ -1,0 +1,141 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #064f1a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 30px;
+}
+
+.hero {
+  text-align: center;
+  background-color: #e8f5e9;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #064f1a;
+  margin-bottom: 15px;
+}
+
+/* Features / Service Cards */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feature {
+  flex: 1 1 300px;
+  background-color: #c8e6c9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Section Styles */
+.about,
+.services,
+.gallery,
+.contact,
+.crypto {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.about h2,
+.services h2,
+.gallery h2,
+.contact h2,
+.crypto h2 {
+  color: #064f1a;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #064f1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer .whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 18px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer .whatsapp:hover {
+  background-color: #1ebc5c;
+}
+
+/* Buttons */
+.btn-primary-custom {
+  background-color: #064f1a;
+  border: none;
+}
+
+.btn-primary-custom:hover {
+  background-color: #043d13;
+}
